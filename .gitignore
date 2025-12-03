@@ -1,0 +1,74 @@
+# Build directories
+build/
+bin/
+lib/
+*.a
+*.so
+*.o
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ROS
+devel/
+catkin_ws/
+.ros/
+
+# Data files
+*.bag
+*.pcd
+*.ply
+*.txt
+!CMakeLists.txt
+!README.md
+!LICENSE
+
+# Logs
+*.log
+*.out
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Videos (large files, use Git LFS or GitHub Releases)
+*.webm
+*.mp4
+*.avi
+*.mov
+
+# Models and weights
+*.pth
+*.pt
+*.onnx
+*.weights
+*.h5
+
+# Temporary files
+*.tmp
+*.bak
+*.cache
+
+# OS
+.DS_Store
+Thumbs.db
+
