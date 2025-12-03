@@ -8,7 +8,8 @@
 2. 点击右上角的 "+" 号，选择 "New repository"
 3. 仓库名称建议：`robust-visual-slam`
 4. 描述：`面向室内弱纹理与快速大视角的鲁棒视觉SLAM方法`
-5. 选择 Public（公开）或 Private（私有，论文接收后可改为公开）
+5. **重要**：选择 **Private（私有）**，因为代码暂不公开，将在论文接收后改为Public
+   - 注意：即使仓库是私有的，GitHub Releases中的文件也可以设置为公开访问
 6. **不要**初始化README、.gitignore或LICENSE（我们已经创建了）
 7. 点击 "Create repository"
 
@@ -41,16 +42,19 @@ git push -u origin main
 
 ## 4. 上传演示视频到GitHub Releases
 
+> **注意**：即使仓库是私有的，GitHub Releases中的文件也可以被公开访问（通过直接链接）。这样可以在代码未公开的情况下先展示演示视频。
+
 ### 方法1：通过GitHub网页界面（推荐）
 
 1. 在GitHub仓库页面，点击右侧的 "Releases"
 2. 点击 "Create a new release"
 3. 填写版本号（如 `v1.0.0`）
-4. 填写Release标题和描述
+4. 填写Release标题和描述（例如："演示视频 - 论文审稿中"）
 5. 在 "Attach binaries" 部分，拖拽上传两个视频文件：
    - `videos/demo1.webm`
    - `videos/demo2.webm`
-6. 点击 "Publish release"
+6. **重要**：确保Release设置为公开（默认情况下，即使仓库是私有的，Release也可以被公开访问）
+7. 点击 "Publish release"
 
 ### 方法2：使用GitHub CLI
 

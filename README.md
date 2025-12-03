@@ -20,25 +20,27 @@
 
 ### 演示视频1：弱纹理环境性能展示
 <video width="640" height="360" controls>
-  <source src="https://github.com/YOUR_USERNAME/robust-visual-slam/releases/download/v1.0/demo1.webm" type="video/webm">
+  <source src="https://github.com/lucien/robust-visual-slam/releases/download/v1.0/demo1.webm" type="video/webm">
   您的浏览器不支持视频标签。
 </video>
 
-**下载链接**: [demo1.webm](https://github.com/YOUR_USERNAME/robust-visual-slam/releases/download/v1.0/demo1.webm)
+**下载链接**: [demo1.webm](https://github.com/lucien/robust-visual-slam/releases/download/v1.0/demo1.webm)
 
 ### 演示视频2：快速大视角运动性能展示
 <video width="640" height="360" controls>
-  <source src="https://github.com/YOUR_USERNAME/robust-visual-slam/releases/download/v1.0/demo2.webm" type="video/webm">
+  <source src="https://github.com/lucien/robust-visual-slam/releases/download/v1.0/demo2.webm" type="video/webm">
   您的浏览器不支持视频标签。
 </video>
 
-**下载链接**: [demo2.webm](https://github.com/YOUR_USERNAME/robust-visual-slam/releases/download/v1.0/demo2.webm)
+**下载链接**: [demo2.webm](https://github.com/lucien/robust-visual-slam/releases/download/v1.0/demo2.webm)
 
-> **注意**：论文被接收后，演示视频将上传至GitHub Releases。当前视频文件位于项目根目录的`videos/`文件夹中，可用于本地测试。
+> **注意**：演示视频已上传至GitHub Releases，可直接观看。代码将在论文被接收后正式开源。
 
 ## 🚀 快速开始
 
-### 环境要求
+> ⚠️ **重要提示**：源代码目前暂不公开，将在论文被接收后正式开源。当前仓库仅包含项目说明和演示视频。
+
+### 环境要求（代码开源后）
 
 - Ubuntu 18.04/20.04
 - ROS Melodic/Noetic (可选)
@@ -48,11 +50,11 @@
 - Eigen3
 - PCL 1.8+
 
-### 编译安装
+### 编译安装（代码开源后）
 
 ```bash
-# 克隆仓库
-git clone https://github.com/YOUR_USERNAME/robust-visual-slam.git
+# 克隆仓库（代码开源后可用）
+git clone https://github.com/lucien/robust-visual-slam.git
 cd robust-visual-slam
 
 # 创建构建目录
@@ -66,7 +68,7 @@ make -j4
 sudo make install
 ```
 
-### 运行示例
+### 运行示例（代码开源后）
 
 ```bash
 # 运行TUM数据集示例
@@ -138,16 +140,17 @@ robust-visual-slam/
 
 如有问题或建议，请通过以下方式联系：
 
-- 提交 Issue: [GitHub Issues](https://github.com/YOUR_USERNAME/robust-visual-slam/issues)
+- 提交 Issue: [GitHub Issues](https://github.com/lucien/robust-visual-slam/issues)
 - 邮箱: your.email@example.com
 
 ## ⚠️ 注意事项
 
-- 本项目代码将在论文被接收后正式开源
-- 演示视频将在论文接收后上传至GitHub Releases
-- 当前版本为预发布版本，可能存在一些问题
+- **代码状态**：源代码目前暂不公开，将在论文被接收后正式开源
+- **视频展示**：演示视频已上传至GitHub Releases，可随时观看
+- **论文状态**：论文正在审稿中，代码将在论文接收后立即开源
+- 如有任何问题或建议，欢迎通过Issues或邮箱联系
 
 ---
 
-**状态**: 🚧 开发中 | 📝 论文待接收 | 🔜 即将开源
+**状态**: 📝 论文审稿中 | 🎥 视频已公开 | 🔒 代码待开源
 
