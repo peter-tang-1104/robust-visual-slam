@@ -6,35 +6,23 @@
 
 针对室内快速大视角、弱纹理及剧烈抖动等复杂场景下传统视觉SLAM易丢失、精度差的问题，本项目提出一种基于深度学习与传统视觉SLAM融合的方法。该方法在经典的TUM和ICL NUIM数据集上进行了详细验证，实验结果表明所提方法有效解决了传统的视觉SLAM方法在快速大视角、弱纹理和剧烈抖动环境下的跟踪失效和定位精度不足的问题。
 
-## ✨ 主要贡献
-
-1. **深度学习特征提取**：采用轻量级的深度学习模型XFeat进行特征点和对应描述子的提取，以替换全部的ORB特征，提高室内复杂环境下的鲁棒性。
-
-2. **层次化匹配策略**：设计了一种层次化的匹配策略，部分阶段采用轻量级的深度学习模型LightGlue进行匹配，其他匹配阶段引入改进的耦合匹配算法，显著提高了视觉SLAM系统在复杂室内环境中的性能。
-
-3. **双模块协同关键帧选择**：改进了关键帧选择算法，引入双模块协同的关键帧选取机制。第一个模块计算两帧之间的相对旋转角度和平移距离，第二个模块则从频域角度进行两帧之间的相似度计算，减少了视觉SLAM系统在曲线运动过程中关键帧的丢失。
-
-4. **自适应权重优化**：针对剧烈抖动环境下易出现的跟踪丢失问题，将关键点置信度嵌入信息矩阵，实现位姿初始化阶段的自适应权重优化，进一步提高了系统的鲁棒性。
-
 ## 🎥 效果演示
 
-### 演示视频1：弱纹理环境性能展示
-<video width="640" height="360" controls>
-  <source src="https://github.com/lucien/robust-visual-slam/releases/download/v1.0/demo1.webm" type="video/webm">
-  您的浏览器不支持视频标签。
-</video>
+> **说明**：由于 GitHub README 不支持直接嵌入视频播放器，视频可以通过以下方式观看：
+> - 🎬 [在线观看（GitHub Pages）](https://peter-tang-1104.github.io/robust-visual-slam/videos.html)（需启用 GitHub Pages）
+> - 📥 点击下方链接下载后在本地播放
 
-**下载链接**: [demo1.webm](https://github.com/lucien/robust-visual-slam/releases/download/v1.0/demo1.webm)
+### 演示视频1：弱纹理环境性能展示
+
+**下载链接**: [demo1.webm](https://github.com/peter-tang-1104/robust-visual-slam/releases/download/v1.0/demo1.webm)
 
 ### 演示视频2：快速大视角运动性能展示
-<video width="640" height="360" controls>
-  <source src="https://github.com/lucien/robust-visual-slam/releases/download/v1.0/demo2.webm" type="video/webm">
-  您的浏览器不支持视频标签。
-</video>
 
-**下载链接**: [demo2.webm](https://github.com/lucien/robust-visual-slam/releases/download/v1.0/demo2.webm)
+**📥 下载视频**: [demo2.webm](https://github.com/peter-tang-1104/robust-visual-slam/releases/download/v1.0/demo2.webm)
 
-> **注意**：演示视频已上传至GitHub Releases，可直接观看。代码将在论文被接收后正式开源。
+---
+
+> **注意**：演示视频已上传至GitHub Releases，可随时下载观看。代码将在论文被接收后正式开源。
 
 ## 🚀 快速开始
 
@@ -54,7 +42,7 @@
 
 ```bash
 # 克隆仓库（代码开源后可用）
-git clone https://github.com/lucien/robust-visual-slam.git
+git clone https://github.com/peter-tang-1104/robust-visual-slam.git
 cd robust-visual-slam
 
 # 创建构建目录
@@ -128,7 +116,8 @@ robust-visual-slam/
 
 ## 👥 作者
 
-- Your Name - *Initial work*
+- lixianying - *Initial work*
+- tangyupeng - *Initial work*
 
 ## 🙏 致谢
 
@@ -140,7 +129,7 @@ robust-visual-slam/
 
 如有问题或建议，请通过以下方式联系：
 
-- 提交 Issue: [GitHub Issues](https://github.com/lucien/robust-visual-slam/issues)
+- 提交 Issue: [GitHub Issues](https://github.com/peter-tang-1104/robust-visual-slam/issues)
 - 邮箱: your.email@example.com
 
 ## ⚠️ 注意事项

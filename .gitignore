@@ -51,6 +51,10 @@ venv/
 ENV/
 
 # Videos (large files, use Git LFS or GitHub Releases)
+# Allow videos in videos/ directory for GitHub Pages (uncomment if needed)
+# Note: This will add ~100MB+ to your repository
+# *.webm
+# !videos/*.webm
 *.webm
 *.mp4
 *.avi
